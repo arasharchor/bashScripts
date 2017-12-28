@@ -17,4 +17,4 @@ git add InstallOpenCV3.3.1-Ubuntu16.04-NoGPU-LaptopLenovo.sh
 git push origin master
 chmod +x InstallOpenCV3.3.1-Ubuntu16.04-NoGPU-LaptopLenovo.sh 
 ./InstallOpenCV3.3.1-Ubuntu16.04-NoGPU-LaptopLenovo.sh 
-
+./InstallOpenCV2.4.13-Ubuntu16.04-NoGPU-LaptopLenovo.sh
