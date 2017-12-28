@@ -13,3 +13,8 @@ git commit -m "some_message"
 #Creating a repository on GitHub
 git remote add origin https://github.com/smajida/Mytest.git
 git push origin master
+git add InstallOpenCV3.3.1-Ubuntu16.04-NoGPU-LaptopLenovo.sh 
+git push origin master
+chmod +x InstallOpenCV3.3.1-Ubuntu16.04-NoGPU-LaptopLenovo.sh 
+./InstallOpenCV3.3.1-Ubuntu16.04-NoGPU-LaptopLenovo.sh 
+

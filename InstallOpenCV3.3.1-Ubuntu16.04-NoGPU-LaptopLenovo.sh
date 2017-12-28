@@ -133,7 +133,7 @@ git checkout 3.3.1
 cd ..
 
 #ADDED Step 4.3: Download opencv_contrib from Github
-https://github.com/opencv/opencv_extra
+git clone https://github.com/opencv/opencv_extra.git
 cd opencv_extra
 git checkout 3.3.1
 cd ..
@@ -170,6 +170,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -DBUILD_EXAMPLES=ON \
     -DBUILD_opencv_dnn=ON \
     -DBUILD_opencv_python2=ON \
+    -DBUILD_opencv_python3=ON \
     -DINSTALL_TESTS=ON \
     -DWITH_QT=ON \
     -DENABLE_CXX11=ON \
@@ -231,7 +232,7 @@ sudo make install
 #ln -s /usr/local/lib/python2.7/dist-packages/cv2.so cv2.so
   
 ############ For Python 3 ############
-#cd ~/.virtualenvs/facecourse-py3/lib/python3.6/site-packages
+#cd ~/.virtualenvs/facecourse-py3/lib/python3.5/site-packages
 #ln -s /usr/local/lib/python3.6/dist-packages/cv2.cpython-36m-x86_64-linux-gnu.so cv2.so
 
 #Step 6: Test OpenCV3
