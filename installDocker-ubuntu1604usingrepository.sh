@@ -30,9 +30,9 @@ sudo apt-get install docker-ce
 
 #On production systems, you should install a specific version of Docker CE instead of always using the latest. This output is truncated. List the available versions.
 
-apt-cache madison docker-ce
+#apt-cache madison docker-ce
 
-sudo apt-get install docker-ce=<VERSION>
+#sudo apt-get install docker-ce #=<VERSION>
 
 #The Docker daemon starts automatically.
 
@@ -46,7 +46,16 @@ sudo docker run hello-world
 
 #To upgrade Docker CE, first run sudo apt-get update, then follow the installation instructions, choosing the new version you want to install.
 
+#sudo apt-get install docker-compose
 
+#for deep video analysis
+#sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+#sudo chmod +x /usr/local/bin/docker-compose
+#sudo usermod -aG docker $USER
+#or
+#sudo groups $USER
+#git clone https://github.com/AKSHAYUBHAT/DeepVideoAnalytics
+#cd DeepVideoAnalytics/docs/tutorial && docker-compose up
 ############################
 #
 
